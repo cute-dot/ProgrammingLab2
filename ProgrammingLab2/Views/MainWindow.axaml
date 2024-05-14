@@ -1,0 +1,66 @@
+<Window Background="LightSteelBlue"  Foreground="WhiteSmoke" FontSize="14"
+        xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ProgrammingLab2.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"
+        Width="500" Height="250"
+        WindowStartupLocation="CenterScreen"
+        x:Class="ProgrammingLab2.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Вход">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid RowDefinitions="*, *, *">
+        <Grid>
+            <Image VerticalAlignment="Top" HorizontalAlignment="Left" ZIndex="100" Height="65" Source="/Assets/Screenshot_2.png"></Image>
+            <StackPanel Margin="2">
+               
+                <TextBlock Margin="2" Background="Wheat" TextAlignment="Right" Foreground="Black" FontSize="12" Text="АИС Отдел кадров"></TextBlock>
+                <TextBlock Margin="2" Background="Orange" TextAlignment="Right"  Foreground="Black" FontSize="12" Text="Версия 1.0.0.0"></TextBlock>
+                <TextBlock Margin="2" Background="White" TextAlignment="Right"  Foreground="Black" FontSize="12" Text="Введите имя пользователя и пароль"></TextBlock>   
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" ColumnDefinitions="2*, 5*" RowDefinitions="*, *">
+            <Grid Grid.Row="0" Grid.Column="0">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" TextAlignment="Center" FontSize="12" Text="Имя пользователя"></TextBlock>
+            </Grid>
+            <Grid Grid.Row="0" Grid.Column="1">
+                <TextBox Width="250" Height="5" CornerRadius="0" VerticalAlignment="Center" Text="{Binding Login, Mode=TwoWay}" FontSize="12" Watermark="Имя" HorizontalAlignment="Center"></TextBox>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="1">
+                
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" TextAlignment="Center" FontSize="12" Text="Пароль"></TextBlock>
+            </Grid>
+            <Grid Margin="30" Grid.Row="1" Grid.Column="1">
+                <TextBox HorizontalAlignment="Center" Width="250" Height="20" CornerRadius="0" Text="{Binding Password, Mode=TwoWay}" Watermark="Пароль"  FontSize="12" ></TextBox>
+            </Grid>
+        </Grid>
+        <Grid Margin="0 10 0 0 " Grid.Row="2" RowDefinitions="*,*">
+            <Grid ColumnDefinitions="*,*">
+                <Grid>
+                    <Button Command="{Binding LoginCommand}" Width="70" CornerRadius="0"  Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextAlignment="Center" Foreground="Black" FontSize="12" Text="Войти"></TextBlock>
+                    </Button>
+                </Grid>
+                <Grid Grid.Column="1" >
+                    <Button Width="70" CornerRadius="0"  Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextAlignment="Center" Foreground="Black" FontSize="12" Text="Отмена"></TextBlock>
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1" Grid.ColumnDefinitions="*,*">
+                <TextBlock  Margin="10 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" Foreground="Black" Text="Язык ввода Английский"></TextBlock>
+                <TextBlock Grid.Column="1" Margin="0 0 10 0"  VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="12" Foreground="Black" Text="Клавиша Capslock нажата"></TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</Window>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="ProgrammingLab2/Views/ErrorWindow.axaml" value="ProgrammingLab2/ProgrammingLab2.csproj" />
+        <entry key="ProgrammingLab2/Views/MainWindow.axaml" value="ProgrammingLab2/ProgrammingLab2.csproj" />
+        <entry key="ProgrammingLab2/Views/ProgrammWindow.axaml" value="ProgrammingLab2/ProgrammingLab2.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

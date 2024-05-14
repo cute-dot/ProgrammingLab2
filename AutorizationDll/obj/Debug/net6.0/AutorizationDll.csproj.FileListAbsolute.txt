@@ -1,0 +1,13 @@
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\bin\Debug\net6.0\AutorizationDll.deps.json
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\bin\Debug\net6.0\AutorizationDll.dll
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\bin\Debug\net6.0\AutorizationDll.pdb
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.csproj.AssemblyReference.cache
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\Avalonia\Resources.Inputs.cache
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.AssemblyInfoInputs.cache
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.AssemblyInfo.cs
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.csproj.CoreCompileInputs.cache
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.dll
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\refint\AutorizationDll.dll
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\AutorizationDll.pdb
+C:\Users\sasha\RiderProjects\ProgrammingLab2\AutorizationDll\obj\Debug\net6.0\ref\AutorizationDll.dll

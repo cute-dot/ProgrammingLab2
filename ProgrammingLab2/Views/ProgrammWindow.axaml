@@ -1,0 +1,19 @@
+﻿<Window  Background="LightSteelBlue" Foreground="WhiteSmoke" FontFamily="Timew New Roman" 
+         FontSize="14" 
+         xmlns="https://github.com/avaloniaui"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:vm="using:ProgrammingLab2.ViewModels"
+         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+         WindowStartupLocation="CenterScreen"
+         Width="800" Height="500"
+         x:Class="ProgrammingLab2.Views.ProgrammWindow"
+         x:DataType="vm:ProgrammWindowViewModel"
+         Title="ProgrammWindow">
+    
+        <Grid VerticalAlignment="Top" x:Name="Call">
+            
+        </Grid>
+</Window>
+ 

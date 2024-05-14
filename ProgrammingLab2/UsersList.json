@@ -1,0 +1,17 @@
+[
+  {
+    "Login": "Alex",
+    "Password": "123",
+    "Status": 2
+  },
+  {
+    "Login": "Sasha",
+    "Password": "456",
+    "Status": 1
+  },
+  {
+    "Login": "Valeria",
+    "Password": "111",
+    "Status": 3
+  }
+]

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingLab2", "ProgrammingLab2\ProgrammingLab2.csproj", "{3EA8FFA2-7B88-4924-9977-D1230C887271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutorizationDll", "AutorizationDll\AutorizationDll.csproj", "{C17EF604-22DF-4679-B25F-B12F73259197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA8FFA2-7B88-4924-9977-D1230C887271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA8FFA2-7B88-4924-9977-D1230C887271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA8FFA2-7B88-4924-9977-D1230C887271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA8FFA2-7B88-4924-9977-D1230C887271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17EF604-22DF-4679-B25F-B12F73259197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17EF604-22DF-4679-B25F-B12F73259197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17EF604-22DF-4679-B25F-B12F73259197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17EF604-22DF-4679-B25F-B12F73259197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
